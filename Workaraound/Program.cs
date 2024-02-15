@@ -14,7 +14,6 @@ namespace Workaraound
             person.FirstName = "Engin";
             person.LastName = "Demiroğ";
             person.DateOfBirthYear = 1985;
-            //person.NationalIdentity = 28861499108;
             person.NationalIdentity = 12345678910;
 
             PttManager pttManager = new PttManager(new PersonManager(new MernisServiceAdapter()));
